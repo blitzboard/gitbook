@@ -1,11 +1,11 @@
 # Table of contents
 
-* [What is MyProduct?](README.md)
+* [What is Blitzboard?](README.md)
 
 ## Guides
 
-* [Creating your first project](guides/creating-your-first-project.md)
-* [Creating your first task](guides/creating-your-first-task.md)
+* [Create your first dashboard](guides/create-your-first-dashboard.md)
+* [Configure visualization](guides/configure-visualization.md)
 * [Advanced permissions](guides/advanced-permissions.md)
 
 ## Fundamentals
