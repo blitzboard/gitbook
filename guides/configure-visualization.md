@@ -1,8 +1,6 @@
 # Configure visualization
 
-### &#x20;<a href="#node-icon" id="node-icon"></a>
-
-### Node Caption <a href="#node-icon" id="node-icon"></a>
+### Node Caption
 
 ```
   node: {
@@ -10,7 +8,7 @@
   },
 ```
 
-### Node Color <a href="#node-icon" id="node-icon"></a>
+### Node Color
 
 Set a single color for the nodes with any label.
 
@@ -50,7 +48,7 @@ The combination of the above.&#x20;
   },
 ```
 
-### Node Size <a href="#node-icon" id="node-icon"></a>
+### Node Size
 
 
 
