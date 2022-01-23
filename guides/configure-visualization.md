@@ -124,9 +124,48 @@ The combination of the above.&#x20;
     },`
 ```
 
-* ### Node Opacity <a href="#node-icon" id="node-icon"></a>
+### Node Opacity <a href="#node-icon" id="node-icon"></a>
 
+By default, node opacity is set to `1` (= not transparent at all).
 
+To set opacity, you can fill opacity number values or select the node properties which hold opacity number values.
+
+Set opacity for all nodes with any label.
+
+```javascript
+    opacity: 0.5,
+```
+
+Set opacity for the nodes with particular labels.
+
+```javascript
+    opacity: {
+      'person': 0.5,
+      'car': 0.8,
+    },
+```
+
+Set the values of `opacity` property for all nodes with any label.
+
+```javascript
+    opacity: '@opacity',
+```
+
+The combination of the above.&#x20;
+
+```javascript
+    opacity: {
+      'person': 0.5,
+      'car': '@opacity',
+    },`
+```
 
 ### Node Icon <a href="#node-icon" id="node-icon"></a>
 
+By default, node icons are automatically selected based on labels.
+
+Disable automatic icon selection.
+
+```javascript
+    defaultIcon: false,
+```
