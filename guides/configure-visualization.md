@@ -2,8 +2,8 @@
 
 ### Node Caption
 
-```
-  node: {
+```javascript
+  node: {j
     caption: ['id'],
   },
 ```
@@ -12,7 +12,7 @@
 
 Set a single color for the nodes with any label.
 
-```
+```javascript
   node: {
     color: 'red',
   },
@@ -20,7 +20,7 @@ Set a single color for the nodes with any label.
 
 Set a single color for the nodes with particular labels.
 
-```
+```javascript
   node: {
     color {
       person: 'red',
@@ -31,7 +31,7 @@ Set a single color for the nodes with particular labels.
 
 Set the values of `color` property for the nodes with any label.
 
-```
+```javascript
   node: {
     color: '@color',
   },
@@ -39,7 +39,7 @@ Set the values of `color` property for the nodes with any label.
 
 The combination of the above.&#x20;
 
-```
+```javascript
   node: {
     color {
       person: 'red',
