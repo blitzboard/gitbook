@@ -1,9 +1,9 @@
 # Create your dashboard
 
-## The basics
+### Create a new dashboard
 
-Projects are containers for task lists. Think of them as a library for everything your team needs to get done to complete or ship a project.
+Hit the '+' button in the top menu bar.
 
-## Creating a project
+### Edit the dataset
 
-Hit the big '+' button in your sidebar and select 'New Project' from the menu that pops up. Give your project a name, and you're good to go!
+Open the data editor and edit the datasets in the property graph format. This format is a general method to describe the complex structures of real-world entities and relationships flexibly.
