@@ -1,8 +1,8 @@
 # Node options
 
-### Node Caption
+### Caption
 
-By default, no caption is shown.
+By default, only the **node ID** is shown.
 
 To show node IDs or node labels, you can set `id` or `label`, respectively. To show values of node properties, you can list the node properties.
 
@@ -14,9 +14,19 @@ Show node IDs, node labels, and the values of `name` property.
   },
 ```
 
-### Node Color
+### Icon <a href="#node-icon" id="node-icon"></a>
 
-By default, node colors are selected automatically based on labels.
+By default, node icons are **selected automatically** based on labels.
+
+Disable automatic icon selection.
+
+```javascript
+    defaultIcon: false,
+```
+
+### Color
+
+By default, node colors are **selected automatically** based on labels.
 
 To set custom colors, you can fill color string values or select the node properties which hold color string values.
 
@@ -50,9 +60,9 @@ The combination of the above.&#x20;
     },
 ```
 
-### Node Size
+### Size
 
-By default, node size is set to `25`.
+By default, node size is set to **`25`**.
 
 To set custom sizes, you can fill size number values or select the node properties which hold size number values.
 
@@ -86,9 +96,9 @@ The combination of the above.&#x20;
     },`
 ```
 
-### Node Shape <a href="#node-icon" id="node-icon"></a>
+### Shape <a href="#node-icon" id="node-icon"></a>
 
-By default, node shape is set to `dot`.
+By default, node shape is set to **`dot`**.
 
 To set custom shapes, you can fill shape string values or select the node properties which hold shape string values.
 
@@ -124,11 +134,11 @@ The combination of the above.&#x20;
     },`
 ```
 
-### Node Opacity <a href="#node-icon" id="node-icon"></a>
+### Opacity <a href="#node-icon" id="node-icon"></a>
 
-By default, node opacity is set to `1` (= not transparent at all).
+By default, node opacity is set to **`1`** (= not transparent at all).
 
-To set opacity, you can fill opacity number values or select the node properties which hold opacity number values.
+To set opacity, you can set opacity number values or select the node properties which hold opacity number values.
 
 Set opacity for all nodes with any label.
 
@@ -160,12 +170,31 @@ The combination of the above.&#x20;
     },`
 ```
 
-### Node Icon <a href="#node-icon" id="node-icon"></a>
+### Saturation
 
-By default, node icons are automatically selected based on labels.
+By default, node saturation is set to **`100%`** (= fully colorful).
 
-Disable automatic icon selection.
+To set saturation, you can set opacity number values or select the node properties which hold opacity number values.
+
+Set saturation for all nodes with any label.
 
 ```javascript
-    defaultIcon: false,
+    saturation: '100%',
 ```
+
+For setting by labels or using property values, please see the [Color section](node-options.md#node-color).&#x20;
+
+### Brightness
+
+By default, node brightness is set to **`37%`**.
+
+To set brightness, you can set opacity number values or select the node properties which hold opacity number values.
+
+Set brightness for all nodes with any label.
+
+```javascript
+    brightness: '37%',
+```
+
+For setting by labels or using property values, please see the [Color section](node-options.md#node-color).&#x20;
+
