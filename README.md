@@ -4,7 +4,9 @@ Blitzboard is an open-source web tool to create custom dashboards for visualizin
 
 ![](.gitbook/assets/images.png)
 
-* **Property Graph** is a data model which can represent complex information, and [PG format](https://pg-format.readthedocs.io/en/0.3/contents/pg-format.html) (.pg) is a text serialization for property graph datasets&#x20;
+* **Property Graph** is a data model which can represent complex information, and [PG format](https://pg-format.readthedocs.io/en/0.3/contents/pg-format.html) is a text serialization for property graph datasets&#x20;
+
+`example.pg`
 
 ```
 # NODES
