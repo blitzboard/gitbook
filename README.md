@@ -1,10 +1,23 @@
 # Overview
 
-Blitzboard is an open-source web tool to create a custom dashboard for visualizing complex datasets, such as networks of money transactions. For intuitive and interactive visualization, data providers can easily edit the data and customize its layouts, icons, labels, and more. Blitzboard can maintain multiple datasets with their respective visualization configurations, moreover, connect to databases to retrieve real-time information.
+Blitzboard is an open-source web tool to create custom dashboards for visualizing complex information, which may include relationships, dependencies, locations, and time. You can easily edit the data and configure its layouts, icons, labels, and more.&#x20;
 
-## Getting Started
+![](.gitbook/assets/images.png)
 
-### Guides: Jump right in
+* **Property Graph** is a data model which can represent complex information, and [PG format](https://pg-format.readthedocs.io/en/0.3/contents/pg-format.html) (.pg) is a text serialization for property graph datasets&#x20;
+
+```
+# NODES
+101  :person  name:Alice  country:"United States"
+102  :person  :student  name:Bob  country:Japan
+# EDGES
+101  -- 102  :same_school  :same_class  since:2012
+101  -> 102  :likes  since:2015
+```
+
+Blitzboard can maintain multiple datasets with their respective visualization configurations, moreover, connect to databases to retrieve real-time information.
+
+### Guides
 
 Follow our handy guides to get started on the basics as quickly as possible:
 
@@ -20,7 +33,7 @@ Follow our handy guides to get started on the basics as quickly as possible:
 [share-your-dashboard.md](guides/share-your-dashboard.md)
 {% endcontent-ref %}
 
-### Fundamentals: Dive a little deeper
+### Fundamentals
 
 Learn the fundamentals of MyProduct to get a deeper understanding of our main features:
 
