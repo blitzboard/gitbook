@@ -1,9 +1,11 @@
-# Create your dashboard
+# Create
 
-### Create a new dashboard
+![](../.gitbook/assets/create.png)
 
-Hit the '+' button in the top menu bar.
+## Create a new dashboard
 
-### Edit the dataset
+Click the '+' button in the menu bar.
+
+## Edit the dataset
 
 Open the data editor and edit the datasets in the property graph format. This format is a general method to describe the complex structures of real-world entities and relationships flexibly.
