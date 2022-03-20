@@ -1,4 +1,4 @@
-# Edge options
+# Edges
 
 ### Caption
 
@@ -98,7 +98,7 @@ Set saturation for all nodes with any label.
     saturation: '100%',
 ```
 
-For setting by labels or using property values, please see the [Color section](edge-options.md#node-color).&#x20;
+For setting by labels or using property values, please see the [Color section](edges.md#node-color).&#x20;
 
 ### Brightness
 
@@ -112,4 +112,4 @@ Set brightness for all nodes with any label.
     brightness: '37%',
 ```
 
-For setting by labels or using property values, please see the [Color section](edge-options.md#node-color).&#x20;
+For setting by labels or using property values, please see the [Color section](edges.md#node-color).&#x20;

@@ -2,15 +2,15 @@
 
 * [Overview](README.md)
 
-## Guides
+## how to
 
-* [Create your dashboard](guides/create-your-dashboard.md)
-* [Configure visualization](guides/configure-visualization.md)
-* [Share your dashboard](guides/share-your-dashboard.md)
+* [Create](how-to/create.md)
+* [Configure](how-to/configure.md)
+* [Share](how-to/share.md)
 
-## Visualization config
+## visualization
 
-* [Node options](visualization-config/node-options.md)
-* [Edge options](visualization-config/edge-options.md)
-* [Layouts](visualization-config/layouts.md)
-* [Others](visualization-config/others.md)
+* [Nodes](visualization/nodes.md)
+* [Edges](visualization/edges.md)
+* [Layouts](visualization/layouts.md)
+* [Others](visualization/others.md)
