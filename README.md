@@ -1,8 +1,10 @@
 # Overview
 
+![](.gitbook/assets/image\_logo.png)
+
 Blitzboard is an open-source web tool to create custom dashboards for visualizing complex information, which may include relationships, dependencies, locations, and time. You can easily edit the data and configure its layouts, icons, labels, and more.&#x20;
 
-![](.gitbook/assets/images.png)
+![](.gitbook/assets/image\_1.png)
 
 **Property Graph** is a data model which can represent complex information, and [PG format](https://pg-format.readthedocs.io/en/0.3/contents/pg-format.html) is a text serialization for property graph datasets&#x20;
 
@@ -19,4 +21,4 @@ Blitzboard is an open-source web tool to create custom dashboards for visualizin
 
 Blitzboard can maintain multiple dashboards with their respective visualization configurations, moreover, connect to databases to retrieve real-time information.
 
-![](<.gitbook/assets/Screen Shot 2022-02-26 at 15.55.49.png>)
+![](.gitbook/assets/image\_2.png)
