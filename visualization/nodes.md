@@ -24,6 +24,15 @@ Disable automatic icon selection.
     defaultIcon: false,
 ```
 
+Select icons from [Iconify](https://icon-sets.iconify.design) and set them for the nodes with particular labels.
+
+```javascript
+    icon: {
+      'person': 'ion:person-outline',
+      'car': 'bx:car',
+    }
+```
+
 ### Color
 
 By default, node colors are **selected automatically** based on labels.
