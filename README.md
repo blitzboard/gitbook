@@ -21,4 +21,4 @@ Blitzboard is an open-source web tool to create custom dashboards for visualizin
 
 Blitzboard can maintain multiple dashboards with their respective visualization configurations, moreover, connect to databases to retrieve real-time information.
 
-![](.gitbook/assets/image\_2.png)
+![](<.gitbook/assets/image\_2 (1).png>)
