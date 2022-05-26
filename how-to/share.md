@@ -30,18 +30,18 @@ This option exports a dataset, configuration settings, and essential JavaScript 
 Load scripts in the header of the your html:
 
 ```html
-<link href='https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css' rel='stylesheet'>
 <script src='https://unpkg.com/vis-network/standalone/umd/vis-network.min.js'></script>
 <script src='https://cdn.jsdelivr.net/gh/blitzboard/blitzboard/blitzboard.js'></script>
+<script src="https://code.iconify.design/2/2.0.4/iconify.min.js"></script>
 ```
 
 Place div tag with `id='blitzboard'`:
 
 ```html
-<div style="width:100%; height: 1000px;" id='blitzboard'></div>
+<div style="width:100%; height: 500px;" id='blitzboard'></div>
 ```
 
-Download `<name>_<datetime>.js`, and load this file to your html (make sure other libraries above have been already loaded):
+Download `<name>_<datetime>.js`, and add this file path after the items above:
 
 ```html
 <script src='./<name>_<datetime>.js'></script>
