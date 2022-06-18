@@ -13,3 +13,10 @@ Set the minimum and maximum zoom levels.
   },
 ```
 
+### Background style
+
+By default, the bacground has a border and radial gradient color.
+
+```javascript
+  style: "border: solid 1px silver; background: radial-gradient(white, silver);"
+```
