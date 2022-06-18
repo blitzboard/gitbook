@@ -15,7 +15,7 @@ Set the minimum and maximum zoom levels.
 
 ### Background style
 
-By default, the background has a border and radial gradient color.
+By default, the field has a border and radial gradient background.
 
 ```javascript
   style: "border: solid 1px silver; background: radial-gradient(white, silver);"
