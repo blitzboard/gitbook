@@ -88,9 +88,9 @@ The combination of the above.&#x20;
 
 ### Saturation
 
-By default, node saturation is set to **`100%`** (= fully colorful).
+By default, edge saturation is set to **`100%`** (= fully colorful).
 
-To set saturation, you can set opacity number values or select the node properties which hold opacity number values.
+To set saturation, you can set opacity number values or select the edge properties which hold opacity number values.
 
 Set saturation for all nodes with any label.
 
@@ -102,14 +102,28 @@ For setting by labels or using property values, please see the [Color section](e
 
 ### Brightness
 
-By default, node brightness is set to **`37%`**.
+By default, edge brightness is set to **`37%`**.
 
-To set brightness, you can set opacity number values or select the node properties which hold opacity number values.
+To set brightness, you can set opacity number values or select the edge properties which hold opacity number values.
 
 Set brightness for all nodes with any label.
 
 ```javascript
     brightness: '37%',
+```
+
+For setting by labels or using property values, please see the [Color section](edges.md#node-color).
+
+### Width
+
+By default, edge width is set to **`1`**.
+
+To set width, you can set width number values or select the edge properties which hold opacity number values.
+
+Set width for all edges with any label.
+
+```javascript
+    width: 2,
 ```
 
 For setting by labels or using property values, please see the [Color section](edges.md#node-color).&#x20;
