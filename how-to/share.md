@@ -30,9 +30,7 @@ This option exports a dataset, configuration settings, and essential JavaScript 
 Load scripts in the header of the your html:
 
 ```html
-<script src='https://unpkg.com/vis-network/standalone/umd/vis-network.min.js'></script>
-<script src='https://cdn.jsdelivr.net/gh/blitzboard/blitzboard/blitzboard.js'></script>
-<script src="https://code.iconify.design/2/2.0.4/iconify.min.js"></script>
+<script src='https://cdn.jsdelivr.net/gh/blitzboard/blitzboard/dist/blitzboard.bundle.min.js'></script>
 ```
 
 Place div tag with `id='blitzboard'`:
