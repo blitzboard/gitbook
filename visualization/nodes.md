@@ -38,7 +38,7 @@ Select icons from [Iconify](https://icon-sets.iconify.design/) and set them for 
 For setting the same icon for all nodes, use the `_default` keyword.
 
 ```
-  icon: {
+    icon: {
       '_default': 'akar-icons:circle',
     }
 ```
