@@ -21,10 +21,10 @@ By default, node icons are **selected automatically** based on labels.
 Disable automatic icon selection.
 
 ```javascript
-    defaultIcon: false,
+    autoIcon: false,
 ```
 
-Select icons from [Iconify](https://icon-sets.iconify.design) and set them for the nodes with particular labels.
+Select icons from [Iconify](https://icon-sets.iconify.design/) and set them for the nodes with particular labels.
 
 ```javascript
     icon: {
