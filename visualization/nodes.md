@@ -32,7 +32,14 @@ Select icons from [Iconify](https://icon-sets.iconify.design/) and set them for 
     icon: {
       'person': 'ion:person-outline',
       'car': 'bx:car',
-　 　　'_default': 'akar-icons:circle',
+    }
+```
+
+For setting the same icon for all nodes, use the `_default` keyword.
+
+```
+  icon: {
+      '_default': 'akar-icons:circle',
     }
 ```
 
