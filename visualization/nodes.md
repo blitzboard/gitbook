@@ -21,9 +21,7 @@ By default, node icons are **selected automatically** based on labels.
 Disable automatic icon selection.
 
 ```javascript
-    autoIcon: false,
- 　　
-    
+    autoIcon: false,    
 ```
 
 Select icons from [Iconify](https://icon-sets.iconify.design/) and set them for the nodes with particular labels.
@@ -37,7 +35,7 @@ Select icons from [Iconify](https://icon-sets.iconify.design/) and set them for 
 
 For setting the same icon for all nodes, use the `_default` keyword.
 
-```
+```javascript
     icon: {
       '_default': 'akar-icons:circle',
     }

@@ -1,9 +1,9 @@
 # Layouts
 
-### Default layout
+### Force layout
 
 ```
-  layout: "hierarchical",
+  layout: "force",
 ```
 
 ### Hierarchical layout
