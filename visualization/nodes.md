@@ -22,6 +22,8 @@ Disable automatic icon selection.
 
 ```javascript
     autoIcon: false,
+ 　　
+    
 ```
 
 Select icons from [Iconify](https://icon-sets.iconify.design/) and set them for the nodes with particular labels.
@@ -30,6 +32,7 @@ Select icons from [Iconify](https://icon-sets.iconify.design/) and set them for 
     icon: {
       'person': 'ion:person-outline',
       'car': 'bx:car',
+　 　　'_default': 'akar-icons:circle',
     }
 ```
 
