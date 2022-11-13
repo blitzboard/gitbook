@@ -41,6 +41,8 @@ For setting the same icon for all nodes, use the `_default` keyword.
     }
 ```
 
+\_default is added only for icon (not for other items such as size) so far.
+
 ### Color
 
 By default, node colors are **selected automatically** based on labels.
